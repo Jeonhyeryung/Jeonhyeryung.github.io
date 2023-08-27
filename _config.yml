@@ -107,8 +107,8 @@ author:
   name             : "Hyeryung Jeon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "HI"
-  location         : "Somewhere"
-  email            :
+  location         : "South Korea"
+  email            : "jjhr0113@yonsei.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
