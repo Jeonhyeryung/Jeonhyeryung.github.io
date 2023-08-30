@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true # 댓글기능 true
+      comments: false # 댓글기능 true
       share: false
       related: true
       sidebar:                  
