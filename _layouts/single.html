@@ -33,6 +33,12 @@ layout: default
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
+          <!-- 추가된 부분: 마지막 업데이트 시간을 표시 -->
+          {% if page.last_modified_at %}
+            <p class="page-last-updated">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
+          {% endif %}
+          <!-- 추가 끝 -->
+          
           {% include page__meta.html %}
           {% include page__date.html %}
         </header>
