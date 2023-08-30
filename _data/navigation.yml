@@ -10,6 +10,17 @@
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+# main links
+main:
+  - title: "Home"
+    url: https://jeonhyeryung.github.io/ # 블로그 HOME 바로가기
+
+  - title: "About"
+    url: /about/ #_pages/about.md 연결
+
+  - title: "GitHub"
+    url: https://github.com/Jeonhyeryung # 깃허브 바로가기 (본인 깃허브로 변경)
+
 sidebar-category:
   - title: "📰 PAPER"
     children:
