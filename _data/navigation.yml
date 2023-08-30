@@ -10,3 +10,23 @@
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+sidebar-category:
+  - title: "📰 PAPER"
+    children:
+      - title: "CV"
+        url: "/CV"
+        category: "CV"
+      
+      - title: "NLP"
+        url: "/NLP"
+        category: "NLP"
+
+      - title: "RS"
+        url: "/RS"
+        category: "RS"
+
+  - title: "📓 LECTURE"
+    children:
+      - title: "수리통계학"
+        url: "/mathematical-statistics"
+        category: "mathematical-statistics"
