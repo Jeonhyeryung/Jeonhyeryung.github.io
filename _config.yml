@@ -290,7 +290,8 @@ defaults:
       comments: true # 댓글기능 true
       share: false
       related: true
-
+      sidebar:                  
+        nav: "sidebar-category"
   # _pages
   - scope:
       path: ""
