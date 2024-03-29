@@ -50,7 +50,7 @@ $$
 
 ### Style representation
 
-Input image의 style 표현을 추출하기 위해서는 feature space의 정보를 활용할 필요가 있다. style 정보는 content와는 다르게 직접적인 layer의 feature을 뽑는 것이 아닌 feature간의 상관관계를 계산하여 구한다. 이를 위하여 Gram matrix $G^l$이 이 도입된다. $G_{i,j}^l$은 layer $l$에서 vector화된 feature map i와 j간 내적을 한 것을 의미한다. 저자들은 원본 이미지의 Gram matrix와 생성 이미지의 Gram matrix간의 mean-squared distance를 최소화하는 방향으로 Loss를 구성한다. $A^l$을 style original image에서 layer $l$에서 layer $l$에 위치하는 feature map이라고 하고, $F^l$을 생성 이미지에서 layer $l$에서 layer $l$에 위치하는 feature map이라고 했을 때 아래와 같이 Loss를 표현할 수 있다.
+Input image의 style 표현을 추출하기 위해서는 feature space의 정보를 활용할 필요가 있다. style 정보는 content와는 다르게 직접적인 layer의 feature을 뽑는 것이 아닌 feature간의 상관관계를 계산하여 구한다. 이를 위하여 Gram matrix $G^l$이 이 도입된다. $G_{i,j}^l$은 layer $l$에서 vector화된 feature map $i$와 $j$간 내적을 한 것을 의미한다. 저자들은 원본 이미지의 Gram matrix와 생성 이미지의 Gram matrix간의 mean-squared distance를 최소화하는 방향으로 Loss를 구성한다. $A^l$을 style original image에서 layer $l$에서 layer $l$에 위치하는 feature map이라고 하고, $F^l$을 생성 이미지에서 layer $l$에서 layer $l$에 위치하는 feature map이라고 했을 때 아래와 같이 Loss를 표현할 수 있다.
 
 $$
 L_{style}(\vec{a}, \vec{x})=\sum_{l=0}^L w_lE_l, \ E_l={1\over4N_l^2M_l^2} \sum_{i,j} (G^l_{i,j}-A^l_{i,j})^2.
