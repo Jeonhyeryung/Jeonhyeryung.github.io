@@ -22,7 +22,7 @@ Deep Convolution Neural Network는 이미지의 high-level semantic information�
 ## Deep image representations
 
 <p style="text-align: center;">
-  <img src="/images/style_transfer_1.png" width="50%">
+  <img src="/images/style_transfer_1.png" width="65%">
 </p>
 
 ### Content representation
@@ -41,7 +41,7 @@ $$
 		 \end{cases}
 $$
 
-이 때 $F_{i,j}^l$은 생성된 이미지의 layer $l$에서 j번째 위치에 존재하는 i번째 filter의 activation을, $P_{i,j}^l$은 content original image의 layer $l$에서 j번째 위치에 존재하는 i번째 filter의 activation을 의미한다. $\vec{p},\vec{x}$는 각각 content original image와 생성된 image를 의미한다. 
+이 때 $F_{i,j}^l$은 생성된 이미지의 layer $l$에서 $j$번째 위치에 존재하는 $i$번째 filter의 activation을, $P_{i,j}^l$은 content original image의 layer $l$에서 $j$번째 위치에 존재하는 $i$번째 filter의 activation을 의미한다. $\vec{p},\vec{x}$는 각각 content original image와 생성된 image를 의미한다. 
 
 이때 network의 higher layer (Figure 1. d와 e)는 물체나 정렬에 대한 high-level content를 포착하고 lower layer (Figure 1. a-c)는 단순히 원본 이미지의 정확한 픽셀 값을 재생산하는데 집중한다. 여기서 저자들은 higher layer의 feature map을 content representation을 위한 방식으로 활용한다. 
 
