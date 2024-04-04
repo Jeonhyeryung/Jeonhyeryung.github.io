@@ -13,8 +13,8 @@ date: 2024-03-28
 last_modified_at: 2024-03-28
 ---
 <h3 style="color:gray;"><em>Reference</em></h3>
-<span style="color:gray;"><em>"RAG를 활용한 완성도 높은 LLM 서비스 구축 With langchain & llamaindex." 패스트 캠퍼스</em></span><br>
-<span style="color:gray;"><em>Yunfan et. al Retrieval-Augmented Generation for Large Language Models: A Survey</em></span>
+<span style="color:gray;"><em>(1) "RAG를 활용한 완성도 높은 LLM 서비스 구축 With langchain & llamaindex." 패스트 캠퍼스</em></span><br>
+<span style="color:gray;"><em>(2) Yunfan et. al Retrieval-Augmented Generation for Large Language Models: A Survey</em></span>
 
 
 ## RAG Pipeline
