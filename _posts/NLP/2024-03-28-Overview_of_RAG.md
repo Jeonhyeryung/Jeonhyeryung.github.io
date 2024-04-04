@@ -20,8 +20,6 @@ last_modified_at: 2024-03-28
 
 ## RAG Pipeline
 
----
-
 <p style="text-align: center;">
   <img src="/images/rag_1.png" width="80%">
 </p>
@@ -61,8 +59,6 @@ last_modified_at: 2024-03-28
 - fine-tuning 없이 사전 학습된 LLM을 그대로 가져다 쓰는 것
 
 ## Naive RAG, Advanced RAG, Modular RAG
-
----
 
 ### Naive RAG
 
@@ -131,8 +127,6 @@ last_modified_at: 2024-03-28
         - 어떤 데이터 스토어에 접속할 것인지, 혹은 요약할 것인지 등
 
 ## RAG and the limitations of LLMS
-
----
 
 - **Hallucination**
     - 모델이 정확하지 않은 정보를 마치 정확한 것처럼 전달하는 현상
