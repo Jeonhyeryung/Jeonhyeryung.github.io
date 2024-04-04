@@ -12,7 +12,6 @@ toc_sticky: true
 date: 2024-03-28
 last_modified_at: 2024-03-28
 ---
-
 ## RAG Pipeline
 
 <p style="text-align: center;">
