@@ -12,10 +12,6 @@ toc_sticky: true
 date: 2024-03-28
 last_modified_at: 2024-03-28
 ---
-<h3 style="color:gray;"><em>Reference</em></h3>
-<span style="color:gray;"><em>(1) "RAG를 활용한 완성도 높은 LLM 서비스 구축 With langchain & llamaindex." 패스트 캠퍼스</em></span><br>
-<span style="color:gray;"><em>(2) Yunfan et. al Retrieval-Augmented Generation for Large Language Models: A Survey</em></span>
-
 
 ## RAG Pipeline
 
@@ -147,3 +143,8 @@ last_modified_at: 2024-03-28
 - **Bias**
     - RAG 프레임워크가 해결하지 못한 문제점으로, 모델이 편향된 정보를 생성하는 것을 완전히 막기는 어려움
     - 또한 수집되는 데이터 자체가 편향성을 지니고 있을 수도 있음
+
+
+<h3 style="color:gray;"><em>Reference</em></h3>
+<span style="color:gray;"><em>(1) "RAG를 활용한 완성도 높은 LLM 서비스 구축" 패스트 캠퍼스</em></span><br>
+<span style="color:gray;"><em>(2) Yunfan et. al Retrieval-Augmented Generation for Large Language Models: A Survey</em></span>
