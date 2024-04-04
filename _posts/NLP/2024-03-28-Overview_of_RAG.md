@@ -1,6 +1,6 @@
 ---
 
-title:  "[Study] GeoNeRF : Overview of RAG"
+title:  "[Study] Overview of RAG"
 
 excerpt: "패스트 캠퍼스 강의 정리"
 categories:
